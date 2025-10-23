@@ -15,15 +15,15 @@
     
     <div class="row mt-2">
         <div class="col text-center">
-            <button class="btn btn-danger">Nuevo Juego</button>
-            <button class="btn btn-primary">Pedir Carta</button>
-            <button class="btn btn-primary">Detener</button>
+            <button class="btn btn-danger" id="btnNuevo">Nuevo Juego</button>
+            <button class="btn btn-primary" id="btnPedir">Pedir Carta</button>
+            <button class="btn btn-primary" id="btnDetener">Detener</button>
         </div>
     </div>
 
     <main class="grilla">
         <div class="row container">
-            <div class="col">
+            <div class="col min-height">
                 <h2>Jugador: <small>0</small> puntos</h2>
                 <div id="jugador-cartas">
                     <!-- <img src="assets/cartas/2H.png" alt="carta jugador" class="carta">
@@ -35,7 +35,7 @@
         </div><!-- espacio juego-->
 
         <div class="row container mt-4">
-            <div class="col">
+            <div class="col min-height">
                 <h2>Computadora: <small>0</small> puntos</h2>
                 <div id="jugador-cartas">
                     <!-- <img src="assets/cartas/2H.png" alt="carta computadora" class="carta">
